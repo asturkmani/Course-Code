@@ -1,7 +1,7 @@
 function [ CleanImage] = cleanImage( InputImage )
 % cuts away excess white around the character, allowing 4 columns of
 %   whitespace to the left and right of the image and everything above and
-%   below after centering the image.
+%   below after centering the image. In short, cleans the image.
 
     indicesOfNonZeroC = find(sum(InputImage));
     indicesOfNonZeroR = find(sum(InputImage,2));
