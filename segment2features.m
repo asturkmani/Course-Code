@@ -1,5 +1,5 @@
 function [x] = segment2features(B)
-
+%create features from segmentation
 %clean the image and scale it to 32x32
 
 B = cleanImage(B);
