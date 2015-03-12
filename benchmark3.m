@@ -1,5 +1,5 @@
 function [hitrate,confmat,allres,alljs,alljfg]=benchmark3(mysystem,datadir);
-
+%Benchmarking software obtained from Kalle Astrom.
 %keyboard;
 thispath = pwd;
 nbr_correct = 0;
